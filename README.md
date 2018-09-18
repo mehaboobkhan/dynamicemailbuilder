@@ -10,9 +10,9 @@ Supports 2 of angular.js tags:
  Json for above tags would be:
  {
     "username" : "Peter",
-    "heroes" : ["superman", "spiderman", "batman"] 
+    "heroes" : [{ "name": "superman" }, { "name": "spiderman"}, { "name": "batman"}] 
     }
  
  The code will process the inputs and builds an email.
  
- Nested ngFor is also supported 
+ Nested ngFor is also supported.
